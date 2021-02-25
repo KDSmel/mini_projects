@@ -3,7 +3,7 @@
 """
 Created on Thu Jul 11 12:34:47 2019
 
-@author: yanyanyu
+@author: kdsmel
 """
 
 import boto3
