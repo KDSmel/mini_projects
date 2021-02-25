@@ -3,7 +3,7 @@
 """
 Created on Tue Jul  9 10:42:17 2019
 
-@author: yanyanyu
+@author: kdsmel
 """
 
 import twitter
