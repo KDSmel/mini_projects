@@ -3,8 +3,6 @@
 """
 Created on Mon Aug  5 12:50:32 2019
 
-@author: yanyanyu
-"""
 
 import datetime as dt
 
