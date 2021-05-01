@@ -8,10 +8,10 @@ RUN adduser --disabled-password --gecos '' nancy
 RUN adduser nancy sudo
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
-USER nancy
-WORKDIR /home/nancy/
+USER kdsmel
+WORKDIR /home/kdsmel/
 
-RUN sudo chmod a+rwx -R /home/nancy/
+RUN sudo chmod a+rwx -R /home/kdsmel/
  
 RUN wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
 RUN bash Anaconda3-2019.07-Linux-x86_64.sh -b
@@ -36,7 +36,7 @@ RUN rm kafka_2.12-2.3.0.tgz
 RUN wget http://apache.cs.utah.edu/cassandra/3.11.4/apache-cassandra-3.11.4-bin.tar.gz
 RUN tar -xvf apache-cassandra-3.11.4-bin.tar.gz
 RUN rm apache-cassandra-3.11.4-bin.tar.gz
-ENV PATH /home/nancy/apache-cassandra-3.11.4/bin:$PATH
+ENV PATH /home/kdsmel/apache-cassandra-3.11.4/bin:$PATH
 
 
 RUN sudo apt-get install -y gcc
@@ -44,10 +44,10 @@ RUN pip install apache-airflow
 
 RUN pip install Flask==1.0.4
 RUN airflow initdb
-RUN mkdir /home/nancy/airflow/dags
+RUN mkdir /home/kdsmel/airflow/dags
 
-ADD . /home/nancy/kafka_stock
-RUN sudo chmod 777 -R /home/nancy/kafka_stock
+ADD . /home/kdsmel/kafka_stock
+RUN sudo chmod 777 -R /home/kdsmel/kafka_stock
 RUN cp kafka_stock/zoo.cfg apache-zookeeper-3.5.5-bin/conf/
 RUN pip install -r kafka_stock/requirements.txt
 
