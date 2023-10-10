@@ -3,7 +3,9 @@
 - [Facies Prediction from Well Logs - Neural Network Model Hyper-Parameters](https://github.com/KDSmel/mini_projects/tree/main/Practical_ML_Tutorial_Facies)
   - Tools: Python (scikit-Learn, pandas, matplotlib, seaborn, ML)
 
-- Optimisation Lithology Prediction from Well_Logs - Machine_Learning
+- [Fault Prediction with Seismic Data Fault - Deep Neural Network](https://github.com/KDSmel/mini_projects/tree/main)
+  - Tools: Deep Learning, Machine Learning, Seismic, Geophysics, Python
+    
 - [Realtime Financial Market Data Visualization and Analysis](https://github.com/kdsmel/mini_projects/tree/master/kafka_stock)
   - Tools: Apache Kafka Apache Cassandra, and Bokeh
 - [Data Analysis of K-POP: Playing with Spotify API](https://github.com/KDSmel/mini_projects/tree/master/spotify_project)
