@@ -3,7 +3,7 @@
 - [Facies Prediction from Well Logs - Neural Network Model Hyper-Parameters](https://github.com/KDSmel/mini_projects/tree/main/Practical_ML_Tutorial_Facies)
   - Tools: Python (scikit-Learn, pandas, matplotlib, seaborn, ML)
 
-- [Fault Prediction with Seismic Data Fault - Deep Neural Network](https://github.com/KDSmel/mini_projects/tree/main)
+- [Fault Prediction from Seismic Data - Deep Neural Network](https://github.com/KDSmel/mini_projects/tree/main)
   - Tools: Deep Learning, Machine Learning, Seismic, Geophysics, Python
     
 - [Realtime Financial Market Data Visualization and Analysis](https://github.com/kdsmel/mini_projects/tree/master/kafka_stock)
